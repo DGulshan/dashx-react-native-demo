@@ -8,6 +8,7 @@ DashX.setLogLevel(0);
 
 DashX.setup({
   publicKey: Config.DASHX_PUBLIC_KEY,
+  baseUri: 'http://api.dashx-local.com:8080/graphql',
   trackAppLifecycleEvents: false,
   trackScreenViews: false,
   targetEnvironment: Config.DASHX_TARGET_ENVIRONMENT || 'production'
